@@ -25,7 +25,9 @@ header {
 
 .banner {
 	background: url("img/banner.png") no-repeat center top;
-	height: 900px;
+	height: 525px;
+	border: 1px solid #ffffff;
+	border-radius: 20%;
 }
 
 .logo a {
@@ -80,4 +82,94 @@ header {
 }
 .menu__link:hover {
 	color: #0d0d0d;
+}
+
+.h1 {
+	color: #ffffff;
+	
+	display: flex;
+	justify-content: center;
+
+}
+
+.h2 {
+	color: #000;
+	
+	display: flex;
+	justify-content: center;
+}
+
+.maki {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	color: #000;
+	font-family: 'Montserrat', Sans-serif;
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 900;
+
+}
+
+.img1 {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	flex-wrap:nowrap;
+
+
+}
+
+.img1 p {
+	max-width: 250px;
+	font-size: small;
+	font-style: italic;
+	justify-content: center;
+	color: #000
+
+}
+
+.img2 {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	flex-wrap:nowrap;
+
+
+}
+
+.img2 p {
+	max-width: 160px;
+	font-size: small;
+	font-style: italic;
+	color: #000
+
+}
+hr {
+	border: 0;
+ 	border-bottom: 3px dashed #ffffff;
+
+ 
+}
+
+img {
+	border-color: #000;
+}
+
+.banner2 {
+	background: url("img/banner2.png") no-repeat center top;
+	height: 445px;
+}
+
+.banner3 {
+	background: url("img/banner3.png") no-repeat center top;
+	height: 300px;
+}
+
+.banner4 {
+	background: url("img/banner1.png") no-repeat center top;
+	height: 450px;
+	
 }
