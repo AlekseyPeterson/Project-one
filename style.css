@@ -112,18 +112,37 @@ header {
 .banner {
 	background: url("img/banner.png") no-repeat center top;
 	height: 525px;
-	border: 1px solid #ffffff;
 	border-radius: 20%;
 }
 .banner2 {
-	background: url("img/banner2.png") no-repeat center top;
+	background: url("img/banner.png") no-repeat center top;
+	background-size: cover;
 	height: 445px;
+	position: relative;
+	max-width: 100%;
+}
+.banner2:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 100px solid #ffffff;
+	border-left: 100vw solid transparent;
+}
+.banner2:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #ffffff;
+	border-right: 100vw solid transparent;
+
 }
 .banner3 {
 	background: url("img/banner3.png") no-repeat center top;
 	height: 300px;
-}
-.banner4 {
-	background: url("img/banner1.png") no-repeat center top;
-	height: 450px;
 }
